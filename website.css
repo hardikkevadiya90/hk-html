@@ -1,0 +1,182 @@
+body {
+    background-color: #43454e;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.my_logo {
+    height: 80px;
+}
+
+#logo_text {
+    display: flex;
+    gap: 30px;
+}
+
+#logo_text>h1,
+h1 {
+    color: white;
+    margin-top: 20px;
+    font-family: 'Sedgwick Ave Display', cursive;
+    letter-spacing: 2px;
+}
+
+#menu {
+    background-color: #323336;
+
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#menu_links {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    gap: 30px;
+    font-size: 1.5rem;
+}
+
+a:visited,
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+#menu_links>div:hover {
+    background-color: #8a8b8b;
+    /* color: black; */
+}
+
+a:hover {
+    color: white;
+}
+
+#menu_links>div {
+    padding: 5px;
+}
+
+#banner {
+    background-image: url(gallery-1468508286-ce-la-vi-restaurant-indoor.jpg);
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+}
+
+#aboutus {
+    display: flex;
+    margin-top: 10px;
+    padding: 50px;
+    gap: 50px;
+}
+
+.about_img {
+    border-radius: 20px;
+    height: 300px;
+    box-shadow: rgba(231, 227, 227, 0.25) 0px 14px 28px, rgba(228, 226, 226, 0.22) 0px 10px 10px;
+
+}
+
+.aboutus_text {
+    font-size: 1.2rem;
+    margin-top: 40px;
+    color: azure;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+#speciality_content {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    color: whitesmoke;
+    gap: 40px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    /* padding: 20px; */
+    
+}
+
+#speciality {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#speciality>h1 {
+    margin-bottom: 35px;
+}
+
+.speciality_item {
+    background-color: #2c2e34;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 20px;
+  
+
+}
+
+.speciality_item>img {
+    margin-bottom: 20px;
+    height: 250px;
+    width: 250px;
+    border-radius: 20px;
+}
+
+.speciality_item:hover {
+    background-color:gainsboro;
+    color: black;
+    box-shadow: rgba(85, 85, 85, 0.3) 0px 19px 38px, rgba(87, 87, 87, 0.22) 0px 15px 12px;
+}
+
+#offer_text {
+    display: flex;
+    gap: 50px;
+    color: whitesmoke;
+    margin-top: 60px;
+    font-family: 'Montserrat', sans-serif;
+    
+
+}
+
+#offers {
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 200px;
+}
+
+.offer_items {
+    display: flex;
+    gap: 20px;
+    background-color: #2c2e34;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.offer_items>img {
+    width: 50%;
+}
+
+.offer_items>p {
+    margin-top: 60px;
+}
+
+.offer_items:hover {
+    box-shadow: rgba(231, 227, 227, 0.25) 0px 14px 28px, rgba(228, 226, 226, 0.22) 0px 10px 10px;
+    color:#2c2e34;
+    background-color:gainsboro;
+}
+
+#footer {
+    display: flex;
+    color: aliceblue;
+    justify-content: space-between;
+    background-color: black
+}
+
+#footer>div {
+    margin-left: 20px;
+    margin-right: 20px;
+}
