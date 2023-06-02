@@ -126,7 +126,7 @@ a:hover {
 }
 
 .speciality_item:hover {
-    background-color:gainsboro;
+    background-color:whitesmoke;
     color: black;
     box-shadow: rgba(85, 85, 85, 0.3) 0px 19px 38px, rgba(87, 87, 87, 0.22) 0px 15px 12px;
 }
